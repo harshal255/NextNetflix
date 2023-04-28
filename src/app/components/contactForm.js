@@ -10,7 +10,7 @@ const mulish = Mulish({
     weight: ['300', '400', '500', '600', '700', '800', '900']
 })
 
-const contactForm = () => {
+const ContactForm = () => {
 
     const [user, setUser] = useState({
         username: "",
@@ -134,4 +134,4 @@ const contactForm = () => {
     )
 }
 
-export default contactForm
+export default ContactForm
